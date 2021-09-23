@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Fotini Simistira</Creator>
+    <Created>2017-06-20T12:33:27.476Z</Created>
+    <LastChange>2017-06-21T11:47:21.042Z</LastChange>
+  </Metadata>
+  <Page imageWidth="3328" imageHeight="4992" imageFilename="e-codices_csg-0863_006_max.jpg">
+    <TextRegion id="region_textline" custom="0">
+      <Coords points="759,555 2963,555 2963,4091 759,4091" />
+      <TextEquiv>
+        <Unicode />
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>
