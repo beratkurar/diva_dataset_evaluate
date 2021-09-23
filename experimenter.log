@@ -1,0 +1,1095 @@
+2021-05-07 00:03:33.005 IDT [main]  TRACE LineSegmentationEvaluatorTool:42 - main
+2021-05-07 00:03:33.022 IDT [main]  INFO  LineSegmentationEvaluatorTool:130 - Loading image ground truth from CSG863_ground_image/e-codices_csg-0863_188_max_gt.png
+2021-05-07 00:03:33.404 IDT [main]  INFO  LineSegmentationEvaluatorTool:138 - Loading page ground truth from CSG863_ground_xml/e-codices_csg-0863_188_max_gt.xml
+2021-05-07 00:03:33.406 IDT [main]  TRACE ImageLinePageDataset:51 - readDataFromFile
+2021-05-07 00:03:33.473 IDT [main]  TRACE ImageLinePageDataset:82 - getPolygonFromXml
+2021-05-07 00:03:33.499 IDT [main]  DEBUG ImageLinePageDataset:129 - found 30 polygons in XML document
+2021-05-07 00:03:33.502 IDT [main]  TRACE ImageLinePageDataset:67 - java.util.ArrayList@512ddf17
+2021-05-07 00:03:33.502 IDT [main]  INFO  LineSegmentationEvaluatorTool:143 - Loading method output from diva_evaluation_xml/csg863_jults_identity_neighbour_blobs_nonmerge_result_xml/e-codices_csg-0863_188_max.xml
+2021-05-07 00:03:33.502 IDT [main]  TRACE ImageLinePageDataset:51 - readDataFromFile
+2021-05-07 00:03:33.532 IDT [main]  TRACE ImageLinePageDataset:82 - getPolygonFromXml
+2021-05-07 00:03:33.645 IDT [main]  DEBUG ImageLinePageDataset:129 - found 30 polygons in XML document
+2021-05-07 00:03:33.646 IDT [main]  TRACE ImageLinePageDataset:67 - java.util.ArrayList@2c13da15
+2021-05-07 00:03:33.646 IDT [main]  INFO  LineSegmentationEvaluatorTool:148 - Evaluating...
+2021-05-07 00:03:33.648 IDT [main]  TRACE LineSegmentationEvaluator:50 - evaluate
+2021-05-07 00:03:33.648 IDT [main]  TRACE LineSegmentationEvaluator:316 - getMatchingPolygons
+2021-05-07 00:03:33.649 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@9e89d68
+2021-05-07 00:03:33.652 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:33.653 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:33.654 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:33.654 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:33.655 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:33.656 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:34.130 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:34.131 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:34.132 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:34.133 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:34.133 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:34.134 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:34.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:34.136 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:34.137 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:34.138 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:34.138 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:34.138 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:34.139 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:34.139 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:34.139 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:34.140 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:34.140 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:34.140 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:34.140 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:34.141 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:35.139 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@9e89d68 * java.awt.Polygon@3caeaf62 = 0.8570571586783978
+2021-05-07 00:03:35.141 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:35.141 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@9e89d68 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:35.141 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@5577140b
+2021-05-07 00:03:35.141 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:35.142 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:35.142 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:35.142 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:35.142 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:35.142 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:35.490 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5577140b * java.awt.Polygon@1c6b6478 = 0.821254752851711
+2021-05-07 00:03:35.490 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:35.491 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:35.492 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:35.493 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:36.442 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5577140b * java.awt.Polygon@3caeaf62 = 0.08338493673576901
+2021-05-07 00:03:36.443 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:36.443 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5577140b with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:36.443 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@67f89fa3
+2021-05-07 00:03:36.443 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:36.444 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:36.444 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:36.444 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:36.444 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:36.444 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:36.916 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@67f89fa3 * java.awt.Polygon@1c6b6478 = 0.0013221635798120793
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:36.917 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:36.918 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:36.918 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:37.348 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@67f89fa3 * java.awt.Polygon@2437c6dc = 0.9915843097300051
+2021-05-07 00:03:37.348 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:37.348 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:37.348 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:37.349 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:37.349 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:37.349 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:37.349 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:38.169 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@67f89fa3 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@4ac68d3e
+2021-05-07 00:03:38.170 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:38.171 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:38.172 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:38.172 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:38.172 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:38.172 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:38.172 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:38.173 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:38.552 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:38.552 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:39.057 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:39.057 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:39.057 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:39.057 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:39.785 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@4ac68d3e * java.awt.Polygon@7b3300e5 = 0.9454931186422237
+2021-05-07 00:03:39.785 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:39.785 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4ac68d3e with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@277c0f21
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:39.786 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:39.787 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:39.788 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:40.281 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@277c0f21 * java.awt.Polygon@61064425 = 0.9415379848164024
+2021-05-07 00:03:40.723 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:40.723 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:40.723 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@277c0f21 * java.awt.Polygon@7b3300e5 = 0.02452216829510376
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:41.470 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@277c0f21 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@6073f712
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:41.471 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:41.472 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:41.472 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:41.880 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:41.881 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:41.881 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:42.379 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@6073f712 * java.awt.Polygon@61064425 = 0.003893067888317026
+2021-05-07 00:03:42.779 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@6073f712 * java.awt.Polygon@7b1d7fff = 0.9851928240650659
+2021-05-07 00:03:42.780 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:42.780 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:42.780 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:42.780 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:42.780 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:42.781 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:42.781 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:42.781 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:42.781 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6073f712 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:42.781 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@43556938
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:42.782 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:43.681 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@43556938 * java.awt.Polygon@12bb4df8 = 0.994840320399459
+2021-05-07 00:03:43.681 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:43.682 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:44.106 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@43556938 * java.awt.Polygon@7b1d7fff = 1.0131917566718678E-5
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:44.107 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@43556938 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@3d04a311
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:44.108 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:44.616 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@3d04a311 * java.awt.Polygon@77468bd9 = 0.9940569452698688
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:45.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:45.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:45.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:45.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:45.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3d04a311 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:45.575 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@7a46a697
+2021-05-07 00:03:45.575 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:45.575 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:45.575 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:45.576 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:46.061 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:46.061 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:46.061 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:46.061 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:46.579 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:46.580 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:46.581 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:46.582 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7a46a697 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:47.058 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@7a46a697 * java.awt.Polygon@6a38e57f = 0.9939199826285218
+2021-05-07 00:03:47.059 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@5f205aa
+2021-05-07 00:03:47.059 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:47.059 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:47.059 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:47.059 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5f205aa * java.awt.Polygon@14899482 = 0.9930808974961159
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:47.517 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:47.518 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:47.518 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:47.518 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:48.053 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:48.053 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:48.054 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:48.055 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:48.055 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f205aa with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:48.539 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@6d86b085
+2021-05-07 00:03:48.540 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:48.540 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:48.540 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:48.540 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:49.027 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:49.028 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:49.028 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@6d86b085 * java.awt.Polygon@39a054a5 = 0.9947225469297944
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:49.525 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:49.526 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:50.090 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:50.090 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@6d86b085 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@75828a0f
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:50.091 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:50.092 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:50.644 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:50.644 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:50.644 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:50.644 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:50.644 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:50.645 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:50.645 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:50.645 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:51.194 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@75828a0f * java.awt.Polygon@383534aa = 0.9944590818363274
+2021-05-07 00:03:51.194 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:51.194 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:51.194 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:51.726 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@75828a0f with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@3abfe836
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:51.727 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:51.728 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:51.728 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:51.729 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:51.729 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:51.729 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:51.729 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:51.729 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:52.154 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:52.155 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:52.155 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:52.155 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:52.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:52.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:52.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:53.211 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@3abfe836 * java.awt.Polygon@136432db = 0.9948312605362766
+2021-05-07 00:03:53.211 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:53.211 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:53.211 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@3abfe836 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:53.211 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@2ff5659e
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:53.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:53.527 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:53.527 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:53.527 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@2ff5659e * java.awt.Polygon@7a7b0070 = 0.994948348280168
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:53.911 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:53.912 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:54.420 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:54.421 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:54.421 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2ff5659e with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:54.421 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@77afea7d
+2021-05-07 00:03:54.421 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:03:54.803 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:54.804 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:54.804 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:54.804 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:54.804 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:54.804 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:55.099 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@77afea7d * java.awt.Polygon@2f333739 = 0.9930803516461868
+2021-05-07 00:03:55.100 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:55.100 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:55.100 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:55.507 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@77afea7d with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:55.508 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@161cd475
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@161cd475 * java.awt.Polygon@2a33fae0 = 0.9840825236154307
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:56.496 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:56.807 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:56.807 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:56.808 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@161cd475 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:56.809 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@532760d8
+2021-05-07 00:03:57.424 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@532760d8 * java.awt.Polygon@ed17bee = 0.96352155544451
+2021-05-07 00:03:57.826 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:57.827 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:57.828 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:03:58.587 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:03:58.588 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:03:58.588 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:03:58.588 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@61064425
+2021-05-07 00:03:58.588 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@136432db
+2021-05-07 00:03:58.589 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:03:58.590 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:03:58.590 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@532760d8 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:03:58.590 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@57fa26b7
+2021-05-07 00:03:59.281 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@57fa26b7 * java.awt.Polygon@ed17bee = 0.003465759578974392
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@11028347
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@14899482
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@21588809
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:03:59.282 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:03:59.283 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:03:59.283 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:03:59.283 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:03:59.283 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@57fa26b7 * java.awt.Polygon@6ed3ef1 = 0.98778521448129
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:00.066 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:00.067 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:00.737 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@57fa26b7 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:00.738 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@5f8ed237
+2021-05-07 00:04:00.738 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:00.738 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:00.738 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:01.298 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:01.298 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:01.298 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:01.298 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:01.298 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:01.299 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:02.100 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:02.101 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:02.729 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5f8ed237 * java.awt.Polygon@e6ea0c6 = 0.9854258175666237
+2021-05-07 00:04:02.730 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5f8ed237 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:02.730 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@2f410acf
+2021-05-07 00:04:02.730 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:02.730 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:02.730 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@2f410acf * java.awt.Polygon@11028347 = 0.9832747315404352
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:03.247 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:03.248 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:03.248 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:03.248 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:03.248 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:03.248 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:03.686 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@2f410acf * java.awt.Polygon@e6ea0c6 = 0.005125248760147834
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@2f410acf with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@47089e5f
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:04.334 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:04.836 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:04.837 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@47089e5f * java.awt.Polygon@e73f9ac = 0.9812713154396039
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:05.206 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@47089e5f with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@4141d797
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:06.324 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:06.325 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:06.739 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@4141d797 * java.awt.Polygon@e73f9ac = 0.006585458698134755
+2021-05-07 00:04:06.739 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:06.739 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:06.739 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:06.739 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:06.927 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@4141d797 * java.awt.Polygon@2e5c649 = 0.8176354558343093
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4141d797 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@68f7aae2
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:08.068 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:08.568 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:08.569 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:08.570 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:08.570 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:08.570 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:08.748 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@68f7aae2 * java.awt.Polygon@6bc168e5 = 0.18189740409914365
+2021-05-07 00:04:08.748 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:09.921 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@68f7aae2 * java.awt.Polygon@2e5c649 = 0.0881401641005755
+2021-05-07 00:04:09.921 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:09.921 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:09.921 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:09.921 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@68f7aae2 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@4f47d241
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:09.922 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@4f47d241 * java.awt.Polygon@21588809 = 0.994111992309541
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:10.384 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:10.774 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4f47d241 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@4c3e4790
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:10.775 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:11.410 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:11.411 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:11.890 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:11.890 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:11.890 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:11.890 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:11.891 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:11.891 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:11.891 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:11.891 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@4c3e4790 * java.awt.Polygon@71bc1ae4 = 0.9943264076378292
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:12.235 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@4c3e4790 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@38cccef
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:12.236 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@38cccef * java.awt.Polygon@707f7052 = 0.9923718322167201
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:12.844 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:13.335 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:13.335 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:13.708 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@38cccef with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@5679c6c6
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:13.709 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:14.354 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5679c6c6 * java.awt.Polygon@707f7052 = 0.0030475307871896777
+2021-05-07 00:04:14.354 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:14.354 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:14.354 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:14.355 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:14.355 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:14.355 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:14.355 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:14.355 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:14.825 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@5679c6c6 * java.awt.Polygon@4cc77c2e = 0.9884601389634917
+2021-05-07 00:04:14.825 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:14.825 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:14.825 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:14.826 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:14.826 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@299a06ac
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@5679c6c6 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:15.314 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@27ddd392
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@2aae9190
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:15.315 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:15.805 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:15.805 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:15.805 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:15.805 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:15.805 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:16.242 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@27ddd392 * java.awt.Polygon@1f89ab83 = 0.9941698638381102
+2021-05-07 00:04:16.242 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:16.242 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:16.242 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@27ddd392 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:16.720 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@19e1023e
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:16.721 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:17.211 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:17.212 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:17.668 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@19e1023e * java.awt.Polygon@1f89ab83 = 1.388027797570026E-4
+2021-05-07 00:04:17.668 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:17.668 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:17.668 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@19e1023e * java.awt.Polygon@299a06ac = 0.9935513087582647
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@19e1023e with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:339 - matching possibility for GT: java.awt.Polygon@7cef4e59
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@ed17bee
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@2a33fae0
+2021-05-07 00:04:18.135 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@707f7052
+2021-05-07 00:04:18.136 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@11028347
+2021-05-07 00:04:18.136 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@14899482
+2021-05-07 00:04:18.136 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@21588809
+2021-05-07 00:04:18.136 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@1c6b6478
+2021-05-07 00:04:18.608 IDT [main]  TRACE LineSegmentationEvaluator:391 - matching possibility: java.awt.Polygon@7cef4e59 * java.awt.Polygon@2aae9190 = 0.9944781327280734
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@2f333739
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@77468bd9
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@12bb4df8
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@7a7b0070
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@39a054a5
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@2437c6dc
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@1f89ab83
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@e73f9ac
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@61064425
+2021-05-07 00:04:18.609 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:19.125 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@383534aa
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@6bc168e5
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@7b3300e5
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@2e5c649
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@136432db
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@3caeaf62
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:19.126 IDT [main]  TRACE LineSegmentationEvaluator:349 - no matching possibility of java.awt.Polygon@7cef4e59 with MO: java.awt.Polygon@6a38e57f
+2021-05-07 00:04:19.126 IDT [main]  DEBUG LineSegmentationEvaluator:395 - 41 possibilities
+2021-05-07 00:04:19.128 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.994948348280168
+2021-05-07 00:04:19.130 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.994840320399459
+2021-05-07 00:04:19.130 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9948312605362766
+2021-05-07 00:04:19.130 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9947225469297944
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9944781327280734
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9944590818363274
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9943264076378292
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9941698638381102
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.994111992309541
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9940569452698688
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9939199826285218
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9935513087582647
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9930808974961159
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9930803516461868
+2021-05-07 00:04:19.131 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9923718322167201
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9915843097300051
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9884601389634917
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.98778521448129
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9854258175666237
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9851928240650659
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9840825236154307
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9832747315404352
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9812713154396039
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.96352155544451
+2021-05-07 00:04:19.132 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9454931186422237
+2021-05-07 00:04:19.133 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.9415379848164024
+2021-05-07 00:04:19.133 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.8570571586783978
+2021-05-07 00:04:19.133 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.821254752851711
+2021-05-07 00:04:19.133 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.8176354558343093
+2021-05-07 00:04:19.133 IDT [main]  DEBUG LineSegmentationEvaluator:408 - match 0.18189740409914365
+2021-05-07 00:04:19.133 IDT [main]  INFO  LineSegmentationEvaluator:415 - found 30 matches
+2021-05-07 00:04:19.133 IDT [main]  TRACE LineSegmentationEvaluator:439 - java.util.ArrayList@555590
+2021-05-07 00:04:19.150 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@2ff5659e * java.awt.Polygon@7a7b0070
+2021-05-07 00:04:19.540 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:19.540 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.994948348280168
+2021-05-07 00:04:19.541 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:19.598 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@43556938 * java.awt.Polygon@12bb4df8
+2021-05-07 00:04:19.997 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:19.997 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.994840320399459
+2021-05-07 00:04:19.998 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:19.998 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@3abfe836 * java.awt.Polygon@136432db
+2021-05-07 00:04:20.506 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:20.506 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9948312605362766
+2021-05-07 00:04:20.506 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:20.506 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@6d86b085 * java.awt.Polygon@39a054a5
+2021-05-07 00:04:21.031 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:21.031 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9947225469297944
+2021-05-07 00:04:21.032 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:21.032 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@7cef4e59 * java.awt.Polygon@2aae9190
+2021-05-07 00:04:21.516 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:21.516 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9944781327280734
+2021-05-07 00:04:21.517 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:21.517 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@75828a0f * java.awt.Polygon@383534aa
+2021-05-07 00:04:22.080 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:22.080 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9944590818363274
+2021-05-07 00:04:22.080 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:22.081 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@4c3e4790 * java.awt.Polygon@71bc1ae4
+2021-05-07 00:04:22.427 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:22.427 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9943264076378292
+2021-05-07 00:04:22.427 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:22.428 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@27ddd392 * java.awt.Polygon@1f89ab83
+2021-05-07 00:04:22.870 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.999716322786845
+2021-05-07 00:04:22.871 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9944504016404236
+2021-05-07 00:04:22.871 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:22.871 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@4f47d241 * java.awt.Polygon@21588809
+2021-05-07 00:04:23.351 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:23.351 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.994111992309541
+2021-05-07 00:04:23.351 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:23.352 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@3d04a311 * java.awt.Polygon@77468bd9
+2021-05-07 00:04:23.877 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:23.877 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9940569452698688
+2021-05-07 00:04:23.877 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:23.877 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@7a46a697 * java.awt.Polygon@6a38e57f
+2021-05-07 00:04:24.356 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:24.356 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9939199826285218
+2021-05-07 00:04:24.357 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:24.357 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@19e1023e * java.awt.Polygon@299a06ac
+2021-05-07 00:04:24.944 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:24.944 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9935513087582647
+2021-05-07 00:04:24.944 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:24.944 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@5f205aa * java.awt.Polygon@14899482
+2021-05-07 00:04:25.409 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.998800806730018
+2021-05-07 00:04:25.409 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9942663869194038
+2021-05-07 00:04:25.409 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:25.410 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@77afea7d * java.awt.Polygon@2f333739
+2021-05-07 00:04:25.703 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:25.703 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9930803516461868
+2021-05-07 00:04:25.703 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:25.703 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@38cccef * java.awt.Polygon@707f7052
+2021-05-07 00:04:26.325 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9937649268016991
+2021-05-07 00:04:26.325 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.998589381892793
+2021-05-07 00:04:26.325 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:26.325 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@67f89fa3 * java.awt.Polygon@2437c6dc
+2021-05-07 00:04:26.683 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:26.683 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9915843097300051
+2021-05-07 00:04:26.683 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:26.683 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@5679c6c6 * java.awt.Polygon@4cc77c2e
+2021-05-07 00:04:27.182 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:27.182 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9884601389634917
+2021-05-07 00:04:27.182 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:27.182 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@57fa26b7 * java.awt.Polygon@6ed3ef1
+2021-05-07 00:04:27.962 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:27.962 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.98778521448129
+2021-05-07 00:04:27.962 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:27.962 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@5f8ed237 * java.awt.Polygon@e6ea0c6
+2021-05-07 00:04:28.608 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9898813514398416
+2021-05-07 00:04:28.608 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9954531201003449
+2021-05-07 00:04:28.608 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:28.608 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@6073f712 * java.awt.Polygon@7b1d7fff
+2021-05-07 00:04:29.019 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9999802504246159
+2021-05-07 00:04:29.020 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9852119938513028
+2021-05-07 00:04:29.020 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:29.020 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@161cd475 * java.awt.Polygon@2a33fae0
+2021-05-07 00:04:29.385 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9869231663373242
+2021-05-07 00:04:29.385 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9970836921631566
+2021-05-07 00:04:29.385 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:29.385 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@2f410acf * java.awt.Polygon@11028347
+2021-05-07 00:04:29.911 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:29.912 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9832747315404352
+2021-05-07 00:04:29.912 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:29.912 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@47089e5f * java.awt.Polygon@e73f9ac
+2021-05-07 00:04:30.284 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9865940835738778
+2021-05-07 00:04:30.284 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9945319975784561
+2021-05-07 00:04:30.284 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:30.285 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@532760d8 * java.awt.Polygon@ed17bee
+2021-05-07 00:04:30.892 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9705983297105595
+2021-05-07 00:04:30.893 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9924896469432161
+2021-05-07 00:04:30.893 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:30.893 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@4ac68d3e * java.awt.Polygon@7b3300e5
+2021-05-07 00:04:31.618 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9508899263257714
+2021-05-07 00:04:31.619 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9940330944029282
+2021-05-07 00:04:31.619 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:31.619 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@277c0f21 * java.awt.Polygon@61064425
+2021-05-07 00:04:32.129 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9925053533190579
+2021-05-07 00:04:32.129 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9482800471599973
+2021-05-07 00:04:32.130 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:32.130 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@9e89d68 * java.awt.Polygon@3caeaf62
+2021-05-07 00:04:32.969 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.8606447228186157
+2021-05-07 00:04:32.969 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9951598499732095
+2021-05-07 00:04:32.969 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:32.970 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@5577140b * java.awt.Polygon@1c6b6478
+2021-05-07 00:04:33.263 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.9971837488457987
+2021-05-07 00:04:33.263 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.8231639925302031
+2021-05-07 00:04:33.263 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:33.263 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@4141d797 * java.awt.Polygon@2e5c649
+2021-05-07 00:04:34.385 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 0.8316692007461166
+2021-05-07 00:04:34.386 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.9797795136003545
+2021-05-07 00:04:34.386 IDT [main]  TRACE LineSegmentationEvaluator:208 - line considered as correctly detected
+2021-05-07 00:04:34.386 IDT [main]  TRACE LineSegmentationEvaluator:82 - evaluation matching java.awt.Polygon@68f7aae2 * java.awt.Polygon@6bc168e5
+2021-05-07 00:04:34.568 IDT [main]  TRACE LineSegmentationEvaluator:186 - P = 1.0
+2021-05-07 00:04:34.568 IDT [main]  TRACE LineSegmentationEvaluator:187 - R = 0.18189740409914365
+2021-05-07 00:04:34.568 IDT [main]  DEBUG LineSegmentationEvaluator:200 - line considered as  missed
+2021-05-07 00:04:34.568 IDT [main]  DEBUG LineSegmentationEvaluator:216 - line skipped, P|R below threshold: P=1.0,R=0.18189740409914365
+2021-05-07 00:04:34.569 IDT [main]  TRACE Results:68 - put(LineSegmentation.NbLinesTruth.int) = 30
+2021-05-07 00:04:34.569 IDT [main]  TRACE Results:68 - put(LineSegmentation.NbLinesProposed.int) = 30
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.NbLinesCorrect.int) = 29
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.LinesIU.double) = 0.9666666666666667
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.LinesFMeasure.double) = 0.9830508474576272
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.LinesRecall.Double) = 0.9666666666666667
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.LinesPrecision.Double) = 1.0
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.MatchedPixelIU.double) = 0.9691967952652102
+2021-05-07 00:04:34.570 IDT [main]  TRACE Results:68 - put(LineSegmentation.MatchedPixelFMeasure.Double) = 0.9843574777244947
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.MatchedPixelPrecision.Double) = 0.9832498984234314
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.MatchedPixelRecall.Double) = 0.9854675550991757
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.PixelIU.double) = 0.941194002093402
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.PixelFMeasure.Double) = 0.9697062746726082
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.PixelPrecision.Double) = 0.9833631228553101
+2021-05-07 00:04:34.571 IDT [main]  TRACE Results:68 - put(LineSegmentation.PixelRecall.Double) = 0.9564235604244375
+2021-05-07 00:04:34.571 IDT [main]  TRACE LineSegmentationEvaluator:275 - ch.unifr.Results@5cbc508c
+2021-05-07 00:04:34.571 IDT [main]  DEBUG LineSegmentationEvaluator:278 - TP = 1578996
+2021-05-07 00:04:34.571 IDT [main]  DEBUG LineSegmentationEvaluator:279 - FP = 26714
+2021-05-07 00:04:34.571 IDT [main]  DEBUG LineSegmentationEvaluator:280 - FN = 71942
+2021-05-07 00:04:34.571 IDT [main]  DEBUG LineSegmentationEvaluator:281 - GT size = 30
+2021-05-07 00:04:34.571 IDT [main]  DEBUG LineSegmentationEvaluator:283 - Prediction size = 30
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:284 - nbPixelsPrediction = 1605710
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:285 - nbPixelsGt = 1650938
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:286 - nbLinesCorrect = 29
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:287 - nbLinesExtra = 0
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:288 - nbLinesMissed = 1
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:290 - line IU = 0.9666666666666667
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:291 - line F1 = 0.9830508474576272
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:292 - linePrecision = 1.0
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:293 - lineRecall = 0.9666666666666667
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:295 - matchedPixel IU = 0.9691967952652102
+2021-05-07 00:04:34.572 IDT [main]  DEBUG LineSegmentationEvaluator:296 - matchedPixel F1 = 0.9843574777244947
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:297 - matchedPixelPrecision = 0.9832498984234314
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:298 - matchedPixelRecall = 0.9854675550991757
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:300 - pixel IU = 0.941194002093402
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:301 - pixel F1 = 0.9697062746726082
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:302 - pixelPrecision = 0.9833631228553101
+2021-05-07 00:04:34.573 IDT [main]  DEBUG LineSegmentationEvaluator:303 - pixelRecall = 0.9564235604244375
+2021-05-07 00:04:34.573 IDT [main]  TRACE Results:68 - put(LineSegmentation.filename.String) = e-codices_csg-0863_188_max
+2021-05-07 00:04:34.578 IDT [main]  ERROR LineSegmentationEvaluatorTool:167 - javax.imageio.IIOException: Can't create an ImageOutputStream!
+2021-05-07 00:04:35.027 IDT [main]  ERROR LineSegmentationEvaluatorTool:176 - javax.imageio.IIOException: Can't create an ImageOutputStream!

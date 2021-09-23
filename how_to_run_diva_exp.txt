@@ -1,0 +1,67 @@
+
+
+1- Diva dataset:
+Run python codes in icdar_2017/diva_2017 folder
+Download 3 books of diva dataset:
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-input-CB55-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/img-CB55-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-gt-CSG18-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/img-CSG18-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-input-CSG863-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/img-CSG863-privateTest.zip
+Put images in CB55 folder. Put xmls in CB55/page folder
+Put each book folder in icdar_2017/diva_2017 folder
+Run extract_main_text.py to create crop_cb55 folder
+Copy crop_cb55 into matlab_line_extractions/diva_dataset folder
+Run BatchLinesScriptDiva.py
+Results are in the folder  diva_dataset/crop_cb55_result/
+
+
+
+2- Diva dataset evaluation:
+Download evaluation tool:
+https://github.com/DIVA-DIA/DIVA_Line_Segmentation_Evaluator/raw/master/out/artifacts/LineSegmentationEvaluator.jar
+Put jar file LineSegmentationEvaluator.jar into icdar_2017/diva_2017/
+
+Copy diva_dataset/crop_cb55_result/polygon_labels into icdar_2017/diva_2017/crop_cb55_polygon_labels
+Run convert_to_page_format.py to create crop_cb55_prediction_xml folder
+
+Download groundtruth from:
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-gt-CB55-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-gt-CSG18-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/PAGE-gt-CSG863-privateTest.zip
+Copy xml ground truth into icdar_2017/diva_2017/CB55_ground_xml folder
+
+Download ground truth pixel labels from:
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/pixel-level-gt-CB55-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/pixel-level-gt-CSG18-privateTest.zip
+https://diuf.unifr.ch/main/hisdoc/sites/diuf.unifr.ch.main.hisdoc/files/uploads/diva-hisdb/hisdoc/private-test/pixel-level-gt-CSG863-privateTest.zip
+Copy image ground truth into icdar_2017/diva_2017/CB55_ground_image folder
+
+Run the evaluator jar:
+Run icdar_2017/diva_2017/batch.py
+Results are in CB55_results.txt file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
